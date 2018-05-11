@@ -1,5 +1,5 @@
 class CrewMember {
-  constructor(member){
-    this.member = member
+  constructor(position){
+    this.position = member
   }
 }
