@@ -1,7 +1,7 @@
 class Spaceship {
-  constructor(name, arrplacer, phasers, shields){
+  constructor(name, team, phasers, shields){
     this.name = name
-    this.placer = arrplacer
+    this.team = team
     this.phasers = phasers
     this.shields = shields
     this.cloaked = false
