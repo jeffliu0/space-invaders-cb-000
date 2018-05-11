@@ -9,7 +9,6 @@ class CrewMember {
       return "had no effect"
     }
     else if(this.position == 'Pilot'){
-      this.currentShip = new Spaceship()
       this.currentShip.warpDrive = 'engaged'
       return 'engaged'
     }
@@ -20,7 +19,6 @@ class CrewMember {
       return "had no effect"
     }
     else if(this.position == 'Defender'){
-      this.currentShip = new Spaceship()
       this.currentShip.cloaked = true
       return true
     }
@@ -31,7 +29,6 @@ class CrewMember {
       return "had no effect"
     }
     else if(this.position == 'Gunner'){
-      this.currentShip = new Spaceship()
       this.currentShip.phasers = 'charged'
       return 'charged'
     }
