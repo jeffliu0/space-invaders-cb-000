@@ -5,5 +5,8 @@ class Spaceship {
     this.phasers = phasers
     this.shields = shields
     this.cloaked = false
+    this.warpDrive = false
+    this.docked = false
+    this.phasersCharge = false
   }
 }
