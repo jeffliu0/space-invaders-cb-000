@@ -22,6 +22,7 @@ class CrewMember {
     else if(this.position == 'Defender'){
       this.currentShip = new Spaceship()
       this.currentShip.cloaked = true
+      return true
     }
   }
 
