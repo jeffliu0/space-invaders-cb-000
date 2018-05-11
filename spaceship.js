@@ -4,5 +4,6 @@ class Spaceship {
     this.placer = arrplacer
     this.phasers = phasers
     this.shields = shields
+    this.cloaking = false
   }
 }
