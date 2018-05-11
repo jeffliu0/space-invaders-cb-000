@@ -11,7 +11,7 @@ class Spaceship {
     }
     else{
       this.docked = false
-      member.forEach(element=>{
+      this.team..forEach(element=>{
         element.currentShip = this
       })
     }
