@@ -18,8 +18,9 @@ class CrewMember {
     if(this.currentShip == 'Looking for a Rig'){
       return "had no effect"
     }
-    else{
-      return
+    else if(this.position == 'Defender'){
+      this.currentShip = new Spaceship()
+      this.currentShip.cloaked = true
     }
   }
 
