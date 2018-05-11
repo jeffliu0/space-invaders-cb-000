@@ -33,6 +33,7 @@ class CrewMember {
     else if(this.position == 'Gunner'){
       this.currentShip = new Spaceship()
       this.currentShip.phasers = 'charged'
+      return 'charged'
     }
   }
 }
