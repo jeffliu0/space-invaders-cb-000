@@ -11,6 +11,7 @@ class CrewMember {
     else if(this.position == 'Pilot'){
       this.currentShip = new Spaceship()
       this.currentShip.warpDrive = 'engaged'
+      return 'engaged'
     }
   }
 
