@@ -1,1 +1,5 @@
-class CrewMember {}
+class CrewMember {
+  constructor(member){
+    
+  }
+}
