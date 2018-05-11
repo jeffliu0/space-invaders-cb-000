@@ -1,7 +1,7 @@
 class Spaceship {
   constructor(name, team, phasers, shields){
     this.name = name
-    this.team = team
+    this.crew = team
     this.phasers = phasers
     this.shields = shields
     this.cloaked = false
@@ -11,7 +11,7 @@ class Spaceship {
     }
     else{
       this.docked = false
-      this.team..forEach(element=>{
+      this.team.forEach(element=>{
         element.currentShip = this
       })
     }
