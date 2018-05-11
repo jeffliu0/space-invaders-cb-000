@@ -11,6 +11,9 @@ class Spaceship {
     }
     else{
       this.docked = false
+      forEach(element=>{
+        element.currentShip = this
+      })
     }
     this.phasersCharge = 'uncharged'
   }
